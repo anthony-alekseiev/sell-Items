@@ -7,12 +7,14 @@ target 'Sell Items' do
 
   # Pods for Sell Items
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 	
 
   target 'Sell ItemsTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
 end
