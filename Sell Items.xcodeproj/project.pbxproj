@@ -13,6 +13,10 @@
 		7F03AF001FC4CB6F00690AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F03AEFF1FC4CB6F00690AE0 /* Assets.xcassets */; };
 		7F03AF031FC4CB6F00690AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F03AF011FC4CB6F00690AE0 /* LaunchScreen.storyboard */; };
 		7F03AF0E1FC4CB6F00690AE0 /* Sell_ItemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F03AF0D1FC4CB6F00690AE0 /* Sell_ItemsTests.swift */; };
+		7F03AF191FC4CCCE00690AE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F03AF181FC4CCCE00690AE0 /* GoogleService-Info.plist */; };
+		7F03AF1C1FC4CE2500690AE0 /* Initial setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F03AF1B1FC4CE2500690AE0 /* Initial setup.swift */; };
+		8E8269240FBC166CB90458A6 /* Pods_Sell_ItemsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D37B5EDF3CDD497805A452 /* Pods_Sell_ItemsTests.framework */; };
+		F15F121C1C52C78B7E7DA0B6 /* Pods_Sell_Items.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684CFB57A6FDC595656C66D3 /* Pods_Sell_Items.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		684CFB57A6FDC595656C66D3 /* Pods_Sell_Items.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sell_Items.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D37B5EDF3CDD497805A452 /* Pods_Sell_ItemsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sell_ItemsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F03AEF51FC4CB6F00690AE0 /* Sell Items.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sell Items.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F03AEF81FC4CB6F00690AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F03AEFA1FC4CB6F00690AE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		7F03AF091FC4CB6F00690AE0 /* Sell ItemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sell ItemsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F03AF0D1FC4CB6F00690AE0 /* Sell_ItemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sell_ItemsTests.swift; sourceTree = "<group>"; };
 		7F03AF0F1FC4CB6F00690AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F03AF181FC4CCCE00690AE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F03AF1B1FC4CE2500690AE0 /* Initial setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Initial setup.swift"; sourceTree = "<group>"; };
+		9D1D0F73C3ACFFFC706788B6 /* Pods-Sell ItemsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sell ItemsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sell ItemsTests/Pods-Sell ItemsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C22F24EF45624EAA1D29F17D /* Pods-Sell Items.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sell Items.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sell Items/Pods-Sell Items.debug.xcconfig"; sourceTree = "<group>"; };
+		DC717606047759682B8171E5 /* Pods-Sell ItemsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sell ItemsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sell ItemsTests/Pods-Sell ItemsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD4763A92C1CB58B4D775302 /* Pods-Sell Items.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sell Items.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sell Items/Pods-Sell Items.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15F121C1C52C78B7E7DA0B6 /* Pods_Sell_Items.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8269240FBC166CB90458A6 /* Pods_Sell_ItemsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,8 @@
 				7F03AEF71FC4CB6F00690AE0 /* Sell Items */,
 				7F03AF0C1FC4CB6F00690AE0 /* Sell ItemsTests */,
 				7F03AEF61FC4CB6F00690AE0 /* Products */,
+				CCA5D32545B44967310EF1F7 /* Pods */,
+				AAB9F70A32C281181032CCC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +93,14 @@
 		7F03AEF71FC4CB6F00690AE0 /* Sell Items */ = {
 			isa = PBXGroup;
 			children = (
+				7F03AF1A1FC4CE0400690AE0 /* Setup */,
 				7F03AEF81FC4CB6F00690AE0 /* AppDelegate.swift */,
 				7F03AEFA1FC4CB6F00690AE0 /* ViewController.swift */,
 				7F03AEFC1FC4CB6F00690AE0 /* Main.storyboard */,
 				7F03AEFF1FC4CB6F00690AE0 /* Assets.xcassets */,
 				7F03AF011FC4CB6F00690AE0 /* LaunchScreen.storyboard */,
 				7F03AF041FC4CB6F00690AE0 /* Info.plist */,
+				7F03AF181FC4CCCE00690AE0 /* GoogleService-Info.plist */,
 			);
 			path = "Sell Items";
 			sourceTree = "<group>";
@@ -96,6 +114,34 @@
 			path = "Sell ItemsTests";
 			sourceTree = "<group>";
 		};
+		7F03AF1A1FC4CE0400690AE0 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				7F03AF1B1FC4CE2500690AE0 /* Initial setup.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		AAB9F70A32C281181032CCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684CFB57A6FDC595656C66D3 /* Pods_Sell_Items.framework */,
+				75D37B5EDF3CDD497805A452 /* Pods_Sell_ItemsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA5D32545B44967310EF1F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C22F24EF45624EAA1D29F17D /* Pods-Sell Items.debug.xcconfig */,
+				DD4763A92C1CB58B4D775302 /* Pods-Sell Items.release.xcconfig */,
+				9D1D0F73C3ACFFFC706788B6 /* Pods-Sell ItemsTests.debug.xcconfig */,
+				DC717606047759682B8171E5 /* Pods-Sell ItemsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F03AF121FC4CB6F00690AE0 /* Build configuration list for PBXNativeTarget "Sell Items" */;
 			buildPhases = (
+				71844C42DB10F51B39C1C1D3 /* [CP] Check Pods Manifest.lock */,
 				7F03AEF11FC4CB6F00690AE0 /* Sources */,
 				7F03AEF21FC4CB6F00690AE0 /* Frameworks */,
 				7F03AEF31FC4CB6F00690AE0 /* Resources */,
+				6B2363C4F118D1DF169611E9 /* [CP] Embed Pods Frameworks */,
+				4C95C2BE66AF67803994120E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F03AF151FC4CB6F00690AE0 /* Build configuration list for PBXNativeTarget "Sell ItemsTests" */;
 			buildPhases = (
+				05D53298903FCE1A690197B2 /* [CP] Check Pods Manifest.lock */,
 				7F03AF051FC4CB6F00690AE0 /* Sources */,
 				7F03AF061FC4CB6F00690AE0 /* Frameworks */,
 				7F03AF071FC4CB6F00690AE0 /* Resources */,
+				EA1C0BDA9AFF5684238BBE93 /* [CP] Embed Pods Frameworks */,
+				C3B2983849F7F86AD8F78C3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F03AF031FC4CB6F00690AE0 /* LaunchScreen.storyboard in Resources */,
+				7F03AF191FC4CCCE00690AE0 /* GoogleService-Info.plist in Resources */,
 				7F03AF001FC4CB6F00690AE0 /* Assets.xcassets in Resources */,
 				7F03AEFE1FC4CB6F00690AE0 /* Main.storyboard in Resources */,
 			);
@@ -194,12 +247,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D53298903FCE1A690197B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sell ItemsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C95C2BE66AF67803994120E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sell Items/Pods-Sell Items-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2363C4F118D1DF169611E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sell Items/Pods-Sell Items-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sell Items/Pods-Sell Items-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71844C42DB10F51B39C1C1D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sell Items-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B2983849F7F86AD8F78C3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sell ItemsTests/Pods-Sell ItemsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1C0BDA9AFF5684238BBE93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sell ItemsTests/Pods-Sell ItemsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sell ItemsTests/Pods-Sell ItemsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F03AEF11FC4CB6F00690AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F03AEFB1FC4CB6F00690AE0 /* ViewController.swift in Sources */,
+				7F03AF1C1FC4CE2500690AE0 /* Initial setup.swift in Sources */,
 				7F03AEF91FC4CB6F00690AE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,12 +514,14 @@
 		};
 		7F03AF131FC4CB6F00690AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22F24EF45624EAA1D29F17D /* Pods-Sell Items.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z4963745C;
 				INFOPLIST_FILE = "Sell Items/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maloi.Sell-Items";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,12 +533,14 @@
 		};
 		7F03AF141FC4CB6F00690AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4763A92C1CB58B4D775302 /* Pods-Sell Items.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z4963745C;
 				INFOPLIST_FILE = "Sell Items/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maloi.Sell-Items";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +552,7 @@
 		};
 		7F03AF161FC4CB6F00690AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1D0F73C3ACFFFC706788B6 /* Pods-Sell ItemsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +570,7 @@
 		};
 		7F03AF171FC4CB6F00690AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC717606047759682B8171E5 /* Pods-Sell ItemsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
